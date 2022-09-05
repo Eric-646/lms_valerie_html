@@ -7,18 +7,30 @@ console.log(formations);
 
 function afficherformation() {
 
-let html = '';
+    let html = '';
 
-formations.forEach(formation => {
+    formations.forEach(formation => {
 
-html += `
-<h2>${formation.libelle}</h2>
-`;
+        html += `
 
-});
+           <div className="formation">
+           
+           <img src="${formation.image_name}" alt="${formation.image_name}">
+           <h2 class="libelle">${formation.libelle}</h2>
+           <p class="reference">${formation.reference}</p>
+           <p class="contenu">${formation.contenu}</p>
+           <a class="formateur" href="${formation.formateur_id.full_name}">${formation.formateur_id.full_name}</a>
+           
+           </div>
+       
+    `;
 
-document.querySelector('#formations').innerHTML = html;
+    });
 
+    document.querySelector('.formations').innerHTML = html;
 }
 
 afficherformation();
+
+
+

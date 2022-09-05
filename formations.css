@@ -1,0 +1,47 @@
+.formations {
+  
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, auto));
+    grid-gap: 50px;
+    margin: 50px auto;
+    max-width: 1240px;
+    padding: 20px;
+}
+
+.formations {
+    padding: 10px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.formations img {
+    width: 100%;
+    display: block;
+    border-radius: 4px;
+}
+
+.formations .libelle {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.formations .contenu {
+    text-align: justify;
+    font-size: 0.9em;
+    color: #666;
+    line-height: 22px;
+}
+
+.formations .reference {
+    font-weight: 600;
+    font-size: 28px;
+    color: #9b0b03;
+    padding-top: 30px;
+    text-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.formations .formateur {
+    color: #9b0b03;
+}
