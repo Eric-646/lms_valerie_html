@@ -13,7 +13,7 @@ function afficherformation() {
 
         html += `
 
-           <div className="formation">
+           <div class="formation">
            
            <img src="${formation.image_name}" alt="${formation.image_name}">
            <h2 class="libelle">${formation.libelle}</h2>
