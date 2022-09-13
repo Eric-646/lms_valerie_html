@@ -79,6 +79,7 @@ header {
 }
 
 .cadre {
+    height: 250px;
     width: 1046px;
     padding-top: 64px;
     padding-bottom: 64px;
